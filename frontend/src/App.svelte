@@ -3,7 +3,7 @@
         const res = await fetch("/api/fakename");
         const name = await res.text();
 
-        // wait 2 seconds
+        // wait 2 seconds, just to simulate a load time
         await new Promise((res) => setTimeout(res, 2000));
 
         return name;
@@ -13,7 +13,7 @@
         const res = await fetch("/api/fakeaddress");
         const address = await res.text();
 
-        // wait 2 seconds
+        // wait 2 seconds, just to simulate a load time
         await new Promise((res) => setTimeout(res, 2000));
 
         return address;
