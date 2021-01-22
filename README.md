@@ -6,7 +6,7 @@ The Svelte frontend uses Webpack (instead of rollup) for bundling.
 
 We proxy our `/api` requests through to the Django backend using webpack's devserver.
 
-## Get started
+## How to use
 
 Install the dependencies for the frontend...
 
