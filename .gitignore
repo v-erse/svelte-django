@@ -1,0 +1,8 @@
+
+frontend/node_modules
+backend/env
+frontend/build
+
+.eslintcache
+backend/db.sqlite3
+backend/**/__pycache__
