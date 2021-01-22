@@ -1,10 +1,12 @@
 # svelte + django
 
-This is an app template for Svelte and Django.
+This is an app example for Svelte and Django.
 
 The Svelte frontend uses Webpack (instead of rollup) for bundling.
 
 We proxy our `/api` requests through to the Django backend using webpack's devserver.
+
+It also uses [Faker](https://github.com/joke2k/faker) to generate fake name's and addresses for demonstration.
 
 ## How to use
 
