@@ -1,6 +1,6 @@
 # svelte + django
 
-This is an app example for Svelte and Django.
+This is an example app that uses Svelte for it's frontend and Django on the backend.
 
 The Svelte frontend uses Webpack (instead of Rollup) for bundling. It uses [this](https://github.com/sveltejs/template-webpack) template.
 
