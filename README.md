@@ -4,7 +4,7 @@ This is an app example for Svelte and Django.
 
 The Svelte frontend uses Webpack (instead of Rollup) for bundling. It uses [this](https://github.com/sveltejs/template-webpack) template.
 
-We proxy our `/api` requests through to the Django backend using Webpack's devserver.
+We proxy our `/api` requests through to the Django backend using Webpack's devserver, as shown [here](https://webpack.js.org/configuration/dev-server/#devserverproxy).
 
 It also uses [Faker](https://github.com/joke2k/faker) to generate fake name's and addresses for demonstration.
 
